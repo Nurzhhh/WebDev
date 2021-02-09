@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Instagram login page
+    </title>
+    <style>
+        body {
+            background: rgb(250, 250, 250);
+            font-size: 14px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+        .main .phone img{
+            margin-top: 30px;
+            margin-left: 300px;
+            width: 385px;
+            margin-bottom: 80px;
+        }
+        .main .login {
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+            margin-left: 700px;
+            margin-top: -600px;
+            margin-bottom: 50px;
+        }
+        
+        .main .login .first,
+        .main .signup {
+            background: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 1px;
+            padding: 40px 40px 20px;
+        }
+        
+        .instapng {
+            display: block;
+            margin: 0 auto 35px;
+        }
+        
+        .main .login .form .input {
+            margin-bottom: 5px;
+        }
+        
+        .main .login .form .input .in {
+            width: 100%;
+            background: rgb(250, 250, 250);
+            ;
+            border: 1px solid rgb(239, 239, 239);
+            font-size: 12px;
+            border-radius: 3px;
+            color: #262626;
+            padding: 10px;
+        }
+        
+        .main .login .form .input .in:focus {
+            border: 1px solid #b2b2b2;
+        }
+        
+        .main .login .form .btn {
+            text-align: center;
+            width: 100%;
+            margin: 10px auto;
+            background-color: #b8e6f1;
+            border: 1px solid #b3edfc;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        
+        .main .login .form .btn a {
+            color: #fff;
+            display: block;
+        }
+        
+        .main .or .forgot {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .main .or .forgot a {
+            color: #003569;
+        }
+        
+        .main .signup {
+            margin: 10px auto;
+            padding: 25px 40px;
+            text-align: center;
+            color: #262626;
+        }
+        
+        .main .signup a {
+            font-style: normal;
+            color: #0b5ba5;
+        }
+        
+        .main .apps {
+            text-align: center;
+            color: #262626;
+        }
+        
+        .main .apps p {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        .main .apps a img {
+            width: 140px;
+            height: 40px;
+            margin: auto 5px;
+        }
+        
+        .help {
+            max-width: 550px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        
+        .help .links ul li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 4px;
+        }
+        
+        .help .links ul li a {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .help .frm {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .help .language {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="phone">
+            <img src="tel.png" alt="phone">
+        </div>
+        <div class="login">
+            <div class="first">
+                <div class="instapng">
+                    <img src="instagram.png" alt="instagram" style="width: 175px;">
+                </div>
+                <div class="form">
+                    <div class="input">
+                        <input type="text" placeholder="Phone number, username, or email" class="in">
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Password" class="in">
+                    </div>
+                    <div class="btn"><a href="#">Log In</a></div>
+                </div>
+                <div class="or">
+                    <div class="forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="signup">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+            <div class="apps">
+                <p>Get the app.</p>
+                <div class="icons">
+                    <a href="#"><img src="appstore.png" alt="appstore"></a>
+                    <a href="#"><img src="googleplay.png" alt="googleplay"></a>
+                </div>
+            </div>
+        </div>
+        <div class="help">
+            <div class="links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Top Accounts</a></li>
+                    <li><a href="#">Hashtags</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Dance & Performance</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Food & Drink</a></li>
+                    <li><a href="#">Home & Garden</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Visual Arts</a></li>
+                </ul>
+                <form>
+                    <p class="language"><select name="language">
+                      <option value="r1">English</option>
+                      <option value="r2">Kazakh</option>
+                      <!-- <option value="r3">Биточки в горшочке</option> -->
+                      <!-- <option value="r4">Галушки славянские</option>
+                      <option value="u2">Пампушки украинские</option>
+                      <option value="u3">Жаркое по-харьковски</option> -->
+                    </select></p>
+                   </form>
+                <div class="frm">© 2021 Instagram from Facebook</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

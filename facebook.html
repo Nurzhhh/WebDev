@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Facebook login page
+    </title>
+    <style>
+        body {
+            background: rgb(240, 240, 240);
+            font-size: 14px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .main .login {
+            /* text-align: center; */
+            float: right;
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin-top: 130px;
+            margin-right: 200px;
+        }
+        
+        .main .facebookpng {
+            /* text-align: center; */
+            /* max-width: 400px; */
+            float: left;
+            width: 22%;
+            /* height: auto; */
+            margin-top: 180px;
+            margin-left: 140px;
+        }
+        
+        .main .login .first,
+        .main .signup {
+            background: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            padding: 15px 15px 20px;
+        }
+        
+        .instapng {
+            display: block;
+            margin: 0 auto 35px;
+        }
+        
+        .main .login .form .input {
+            margin-bottom: 10px;
+        }
+        
+        .main .login .form .input .in {
+            width: 100%;
+            background: rgb(250, 250, 250);
+            border: 1px solid rgb(239, 239, 239);
+            font-size: 15px;
+            border-radius: 6px;
+            color: #262626;
+            padding: 15px;
+        }
+        
+        .main .login .form .input .in:focus {
+            border: 1px solid #4548f3;
+        }
+        
+        .main .login .form .btn {
+            text-align: center;
+            width: 100%;
+            margin: 10px auto;
+            background-color: #063ac9;
+            border: 1px solid #b3edfc;
+            border-radius: 6px;
+            padding: 15px;
+        }
+        
+        .main .login .form .btn a {
+            color: #fff;
+            display: block;
+            font-size: 18px;
+        }
+        
+        .main .login .crt .btn {
+            width: 60%;
+            /* size: 20px; */
+            margin: 0px auto;
+            background-color: #0ab813;
+            border: 1px solid #b3edfc;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .main .login .crt .btn a {
+            color: #fff;
+            display: block;
+            font-size: 18px;
+        }
+        
+        .main .login .apps a {
+            color: black;
+            /* display: block; */
+            /* font-size: 18px; */
+        }
+        
+        .main .facebookpng p {
+            color: #fff;
+            font-size: 30px;
+            margin-left: 35px;
+        }
+        
+        .main .facebookpng p {
+            color: black;
+        }
+        
+        hr.new1 {
+            border-top: 1px solid rgb(222, 222, 222);
+            /* margin-bottom: 20px; */
+        }
+        
+        .main .or .forgot {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .main .or .forgot a {
+            color: #003569;
+        }
+        
+        .main .signup {
+            margin: 10px auto;
+            padding: 25px 40px;
+            text-align: center;
+            color: #262626;
+        }
+        
+        .main .signup a {
+            font-style: normal;
+            color: #0b5ba5;
+        }
+        
+        .main .apps {
+            text-align: center;
+            color: #262626;
+        }
+        
+        .main .apps p {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        .main .apps a img {
+            width: 140px;
+            height: 40px;
+            margin: auto 5px;
+        }
+        
+        .help {
+            /* max-width: 550px; */
+            width: 100%;
+            background-color: white;
+            margin-top: 100px;
+            /* float: inline-end; */
+            padding: 40px 0;
+            display: inline-block;
+            justify-content: space-between;
+            text-align: center;
+        }
+        
+        .help .links ul li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 4px;
+        }
+        
+        .help .links hr {
+            border-top: 1px solid rgb(222, 222, 222);
+            margin-right: 10px;
+            margin-left: 150px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 1050px;
+            text-align: center;
+        }
+        
+        .help .links ul li a {
+            color: #999;
+            font-size: 12px;
+            /* margin-bottom: 20px; */
+        }
+        
+        .help .frm {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+            /* margin-left: 150px; */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="facebookpng">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook">
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class=" login ">
+            <div class="first ">
+                <div class="form ">
+                    <div class="input ">
+                        <input type="text " placeholder="Email or Phone Number " class="in ">
+                    </div>
+                    <div class="input ">
+                        <input type="password " placeholder="Password " class="in ">
+                    </div>
+                    <div class="btn "><a href="# "><strong>Log In</strong></a></div>
+                </div>
+                <div class="or ">
+                    <div class="forgot ">
+                        <a href="# ">Forgot password?</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="crt ">
+                    <div class="btn ">
+                        <a href="# "><strong>Create New Account</strong></a>
+                    </div>
+                </div>
+            </div>
+            <div class="apps ">
+                <p><a href="# "><strong>Create a Page</strong></a> for a celebrity, band or business.</p>
+            </div>
+        </div>
+    </div>
+    <div class="help ">
+        <div class="links ">
+            <ul>
+                <li><a href="# ">English</a></li>
+                <li><a href="# ">Kazakh</a></li>
+                <li><a href="# ">Russian</a></li>
+                <li>
+                    <a href="# ">Turkey</a>
+                </li>
+                <li>
+                    <a href="# ">Bahasa Indonesia
+                    </a>
+                </li>
+                <!-- <li><a href="# ">Privacy</a></li>
+                <li><a href="# ">Terms</a></li>
+                <li><a href="# ">Top Accounts</a></li>
+                <li><a href="# ">Hashtags</a></li>
+                <li><a href="# ">Locations</a></li>
+                <li><a href="# ">Beauty</a></li>
+                <li><a href="# ">Dance & Performance</a></li>
+                <li><a href="# ">Fitness</a></li>
+                <li><a href="# ">Food & Drink</a></li>
+                <li><a href="# ">Home & Garden</a></li>
+                <li><a href="# ">Music</a></li>
+                <li><a href="# ">Visual Arts</a></li> -->
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="# ">About</a></li>
+                <li><a href="# ">Blog</a></li>
+                <li><a href="# ">Jobs</a></li>
+                <li><a href="# ">Help</a></li>
+                <li><a href="# ">API</a></li>
+                <li><a href="# ">Privacy</a></li>
+                <li><a href="# ">Terms</a></li>
+                <li><a href="# ">Top Accounts</a></li>
+                <li><a href="# ">Hashtags</a></li>
+                <li><a href="# ">Locations</a></li>
+                <li><a href="# ">Beauty</a></li>
+                <li><a href="# ">Dance & Performance</a></li>
+                <li><a href="# ">Fitness</a></li>
+                <li><a href="# ">Food & Drink</a></li>
+                <li><a href="# ">Home & Garden</a></li>
+                <li><a href="# ">Music</a></li>
+                <li><a href="# ">Visual Arts</a></li>
+            </ul>
+            <div class="frm ">Facebook © 2021</div>
+        </div>
+    </div>
+</body>
+
+</html>
